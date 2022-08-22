@@ -14,7 +14,7 @@
 .navigation ul li {
   font-size: 20px;
   list-style: none;
-  display: inline-block;
+  display: inline;
   justify-content: space-evenly;
   margin-left: 70px;
   color: white;
@@ -156,13 +156,13 @@
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  /* gap: 20px; */
+  gap: 20px;
 }
 
 .section-4  .container-4 img{
   
-  width: 250px;
-  height: 200px;
+  width: 300px;
+  height: 250px;
   border-radius: 8px;
  gap: 40px ;
 }
