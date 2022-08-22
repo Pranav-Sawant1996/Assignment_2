@@ -1,0 +1,219 @@
+* {
+  margin: 0px;
+}
+.navigation {
+  height: 50px;
+  display: flex;
+  padding: 5px 20px;
+  z-index: 1;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgb(39, 38, 38);
+}
+
+.navigation ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 70px;
+  color: white;
+}
+
+.navigation ul li:hover {
+  background-color: rgb(65, 64, 64);
+}
+
+/* section-1 */
+
+.section-1 {
+  height: 80vh;
+  background-image: url(https://kettocdn.gumlet.io/media/campaign/496000/496779/image/6128936f21ae9.jpeg?w=400&dpr=2.6);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.section-1 .container{
+  width: fit-content;
+    position: relative;
+    top: 20%;
+    left: 10%;
+}
+.section-1 .container h1{
+    font-size: 45px;
+    color: white;
+}
+.section-1 .container p{
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+}
+.section-1 .container button{
+    margin-top: 10px;
+    width: 3cm;
+    height: 0.7cm;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(39, 38, 38);
+}
+.section-1 .container button:hover{
+    background-color: rgb(65, 64, 64);
+}
+/* section-2 */
+.section-2 {
+  height: 80vh;
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center ;
+  background-color:rgb(39, 38, 38) ;
+  
+}
+
+.section-2 h1{
+  /* margin-top: 20px; */
+ padding: 20px;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+}
+
+.section-2 .section-2-cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.section-2 .section-2-cards .card{
+  width: 250px;
+  border-radius: 12px;
+  border: 1px solid white;
+  /* background-color: red; */
+}
+.section-2 .section-2-cards .card img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px 12px 0 0
+}
+.section-2 .section-2-cards .card .card-body{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  /* padding: 5px 10px; */
+}
+
+.section-3{
+  height: 100vh;
+  background-image: url(https://d2zcpk7yfyf2dq.cloudfront.net/milaap/image/upload/c_limit,w_1170/v1554027132/production/images/uploader_images/Team_MH-08_Racing_Mahalaxmi_4_2_1554027129.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* section-3 */
+
+.section-3 h1{
+  /* margin-top: 20px; */
+ padding: 20px;
+  font-size: 40px;
+  color: rgb(231, 47, 47);
+  text-align: center;
+}
+.section-3 ul li{
+  background: rgb(194, 208, 235);
+  margin: 30px;
+  font-size: 30px;
+  color: rgb(231, 47, 47);
+  opacity: 0.8;
+}
+
+.section-4{
+  height: 80vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center ;
+  background-color:rgb(39, 38, 38) ;
+}
+
+.section-4 h1{
+  padding: 20px;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+}
+.section-4  .container-4{
+  width: 100%;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center ;
+}
+
+.section-4  .container-4 img{
+  margin-left: 41px;
+  width: 300px;
+  height: 200px;
+  border-radius: 8px;
+ 
+}
+
+/* sectio-5 */
+.section-5{
+  height: 30vh;
+  padding: 50px 30px;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+} 
+.section-5 h1{
+  font-size: 50px;
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+.section-5 .newsletter{
+  margin: 20px;
+}
+.section-5 .newsletter input{
+  width: 300px;
+  height: 0.4cm;
+  outline: none;
+}
+.section-5 .newsletter button{
+  color: white;
+  height: 0.6cm;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(39, 38, 38)
+}
+
+.section-5 .newsletter button:hover{
+  background-color: rgb(65, 64, 64);
+}
+
+.section-5 .social-media{
+  margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.section-5 .social-media a img{
+width: 30px;
+cursor: pointer;
+}
+
+.section-5 code{
+  bottom: 20px;
+  position: absolute;
+}
